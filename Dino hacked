@@ -1,0 +1,8 @@
+#go to chrome://dino/ (No need to disconnect internet)
+#open Inspect Element or press ctrl+shift+i
+#in the console type 
+var original = Runner.prototype.gameOver
+#press Enter and type
+Runner.prototype.gameOver = function() {}
+#press Enter and close the inspect element
+#start playing🤩
